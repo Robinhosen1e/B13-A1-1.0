@@ -100,14 +100,26 @@ nav li a {
     font-weight: 400;
     margin-bottom: 32px;
 }
+.button-lpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .comten .container-button-2-1{
     margin-left: 16px;
-    
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 2px solid white;
 }
 .comten .container-button-2 button{
     font-size: 16px;
     font-weight: 600;
-    background-color: #30B868;
+     background-color: #30B868; 
     border: none;
     padding: 16px 16px;
     border-radius: 4px;
