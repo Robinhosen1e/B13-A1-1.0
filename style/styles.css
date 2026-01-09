@@ -69,6 +69,7 @@ nav li a {
 }
 .container .comten{
    max-width: 1360px; 
+   margin: 0 auto;
 }
 
 .container .comten{
@@ -115,7 +116,7 @@ nav li a {
     color: #FFFFFF;
     cursor: pointer;
     border: 2px solid white;
-    
+
 }
 .comten .container-button-2 button{
     font-size: 16px;
@@ -127,9 +128,15 @@ nav li a {
     color: #FFFFFF;
     cursor: pointer;
 }
+.card-info{
+    /* max-width: 1350px;
+    margin: 0 auto; */
+}
 
 .card-heading{
     text-align: center;
+    max-width: 1350px;
+    margin: 0 auto;
     
 }
 .card-heading h2{
@@ -149,6 +156,8 @@ nav li a {
     text-align: center;
     gap: 24px;
     margin: 0 120px;
+    max-width: 1350px;
+    margin: 0 auto;
 }
 .card {
     background-color: #FFFFFF;
@@ -156,6 +165,8 @@ nav li a {
     /* text-align: justify; */
     box-shadow: 10px 10px 30px #ebe9e9;
     margin-bottom: 120px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
 
 }
 .card h4{
@@ -165,7 +176,6 @@ nav li a {
     margin-bottom: 16px;
 }
 .card p{
-   
     text-align: justify;
     color: #627382;
     font-size: 16px;
@@ -183,7 +193,10 @@ nav li a {
 }
 .container-dettil{
     display: flex;
-    margin: 0 120px 120px;
+    /* margin: 0 120px 120px; */
+    max-width: 1350px;
+    margin: 0 auto;
+
 }
 .container-content-1{
     margin-top: 102px;
@@ -217,10 +230,16 @@ nav li a {
     color: #001931;
     margin-bottom: 16px;
 }
+.about{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 .about .about-content{
     width: 85%;
     max-width: 1350px;
-    margin: 0 120px 120px 120px;
+    margin: 0 auto;
+
+    /* margin: 0 120px 120px 120px; */
     text-align: center;
     background-color: #F7F6F2;
     padding: 80px 40px;
